@@ -1,0 +1,44 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "S_Naziruddin.ipynb",
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Fi5YhbYSMgf8",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "d106352f-11ee-4d09-da3d-8ec5bf3f7f0d"
+      },
+      "source": [
+        "import hashlib\n",
+        " \n",
+        "print (hashlib.md5('shape ai md5 project'.encode('UTF-8')).hexdigest())"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "8ee4489ac4122abd7c598ce54a958ff0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
